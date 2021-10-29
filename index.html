@@ -98,11 +98,18 @@
 
 
 
-
+<audio src="./sound/bird.mp3"></audio>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script><script  src="./script.js"></script>
 <br>
 
+<script>
+  setTimeout(()=>{
+    (()=>{
+     document.getElementsByTagName('audio')[0].play()
+    })()
+  },1000)
 
+</script>
 </body>
 </html>

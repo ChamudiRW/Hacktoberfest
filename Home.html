@@ -6,6 +6,7 @@
     <link href="home.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+
     <section id="main">
       <nav>
         <a href = "#" class = "logo">
@@ -28,6 +29,7 @@
      <div class="image">
        <img src = "./img/animal.png" alt = "potrait">
      </div>
+     
      <div class="main-text">
        <h1> MiracleMakers'<br> Pet Adoption </h1>
        <p></p>
@@ -35,8 +37,15 @@
      </div>
     </section>
   </div>
-
+<audio src="./sound/bird.mp3"></audio>
   <br><br><b></b><br><br><br><br><br><br><br><br><br><br><br>
- 
+ <script>
+   setTimeout(()=>{
+     (()=>{
+      document.getElementsByTagName('audio')[0].play()
+     })()
+   },1000)
+
+ </script>
   </body>
 </html>

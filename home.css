@@ -133,3 +133,11 @@ html,
 body {
     background-color: #ffffff;
 }
+
+/* for small screens */
+@media screen  and (max-width:670px) {
+    #main {
+        padding: 1em !important;
+        
+    }
+}
