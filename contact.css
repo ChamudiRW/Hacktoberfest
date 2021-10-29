@@ -235,6 +235,9 @@ input {
 #first-last-name>input,
 #address>input {
     width: 90%;
+    padding: 1em;
+
+    color: rgb(80, 79, 79);
 }
 
 #gender {
